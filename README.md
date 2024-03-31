@@ -22,4 +22,6 @@ Pug templates.
 
 ## Changes Made
 
-### Alot
+Added CSS changes
+Added fire to my name
+Added my own website links and desription.
