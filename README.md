@@ -2,9 +2,8 @@
 TeamTreehouse Unit 6 Project.
 
 # Static Node.js and Express Site
-This repository contains an Express.js application that demonstrates
-error handling for undefined routes and rendering error pages using 
-Pug templates.
+Node.js and Express make a powerful pair when used together on the server side, and are used everyday to make fast, modular and dynamic web applications. For this project, you'll use Node.js, Express and Pug templates to create a portfolio site to show off the projects you've built. 
+
 
 ## Setup
 
@@ -22,6 +21,6 @@ Pug templates.
 
 ## Changes Made
 
-Added CSS changes
-Added fire to my name
-Added my own website links and desription.
+- Added CSS changes
+- Added fire to my name
+- Added my own website links and desription.
