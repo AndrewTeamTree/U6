@@ -29,18 +29,17 @@ app.get('/about', (req, res) => {
 app.use((req, res, next) => {
   const err = new Error('Page not found');
   err.status = 404;
-  console.error(`Error ${err.status}: ${err.message}`);
   next(err); 
 });
+
 
 app.use((err, req, res, next) => {
   console.error('Error:', err);
   const statusCode = err.status || 500;
   const errorMessage = err.message || 'Internal Server Error';
   console.error(`Error ${statusCode}: ${errorMessage}`);
-  res.status(statusCode).render('error', { errorMessage });
+  res.status(statusCode).render('error', { status: statusCode, message: errorMessage });
 });
-
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
