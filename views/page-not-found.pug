@@ -1,0 +1,13 @@
+extends layout.pug
+
+block content
+  .nav
+    a(href='/')
+      | &larr; Back to Home Page
+
+  h1 Sorry, a problem occurred!
+  h2 Error #{err.status}
+  h2 #{err.message}
+  p(style='color: grey') #{err.stack}
+  
+    

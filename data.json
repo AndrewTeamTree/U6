@@ -1,0 +1,101 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "This application presents a random quote onto the webpage with different background colors.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Git and GitHub"
+        ],
+        "live_link": "https://AndrewTeamTree.github.io/U1",
+        "github_link": "https://github.com/AndrewTeamTree/U1",
+        "image_urls": [
+          "/static/images/0 (3).png"
+        ]
+      },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "This application presents a list of students. Pagination feature was added to show 9 students per page. Real_time search functionality was added to the search bar by making a 'keyup' event listener.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git and GitHub"
+            ],
+            "live_link": "https://AndrewTeamTree.github.io/U2",
+            "github_link": "https://github.com/AndrewTeamTree/U2",
+            "image_urls": [
+                "/static/images/0 (2).png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "This application presents a webpage in which the user fills out a form. Real-time data is presented to the user for each form field. Some fields are disabled if there is conflicting data. For example, the user cannot register for two activities that occur at the same time.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git and GitHub",
+                "Node.js"
+            ],
+            "live_link": "https://AndrewTeamTree.github.io/U3",
+            "github_link": "https://github.com/AndrewTeamTree/U3",
+            "image_urls": [
+                "/static/images/0 (4).png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Object Game Application",
+            "description": "This application presents a game called Phrase Hunter. Upon starting the game, a phrase is hidden from the player. The player must choose letters on the webpage in order to correctly guess the hidden phrase. Upon 5 incorrect guesses, the players loses and may choose to play again. Upon fully revealing the hidden phrase, the player wins and may choose to play again.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git and GitHub",
+                "Node.js"
+            ],
+            "live_link": "https://AndrewTeamTree.github.io/U4",
+            "github_link": "https://github.com/AndrewTeamTree/U4",
+            "image_urls": [
+                "/static/images/0 (1).png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "  User Files: API and Modal",
+            "description": "This application presents a compilation of 12 random users retrieved through the 'randomuser.me' API. Upon clicking a user card, a modal is created and displayed with additional information about the selected user. The modals may be closed with using the 'escape' key on the physical keyboard, clicking out of the modal, or clicking the 'X' close button on the modal.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git and GitHub",
+                "Node.js"
+            ],
+            "live_link": "https://AndrewTeamTree.github.io/U5",
+            "github_link": "https://github.com/AndrewTeamTree/U5",
+            "image_urls": [
+                "/static/images/0 (5).png"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "AndymanHandyman Service",
+            "description": "Handyman website",
+            "technologies": [
+                "electrical, plumbing, anything basically!"
+            ],
+            "live_link": "/static/proj/andymanhandyman/index.html",
+            "github_link": "https://github.com/AndrewTeamTree/U6/tree/6902018d38621ff57713e54a9ab03d4cd178468b/public/proj/andymanhandyman",
+            "image_urls": [
+                "/static/images/s.jpg"
+            ]
+        }
+    ]
+
+}    

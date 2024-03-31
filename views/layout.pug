@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
+    link(href="https://fonts.googleapis.com/css?family=Sofia&effect=fire", rel="stylesheet")
+    
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='/static/images/q (11).png', alt='Profile picture')   
+                 
+        .dev-intro-box
+
+          
+          h5(class="font-effect-fire" style="color: rgb(4, 26, 168)") Andrew Stevens
+
+          
+          p I have been a business owner for almost 20 years, a 43 year old general contractor and handyman. Looking for a better career and thats where I found Front End Dev. & Fullstack Javascript Tech. 
+          
+          p Im a certified Front End Developer with a certificate from W3schools.com and pursuing a FullStack JavaScript Tech Degree!
+          
+          a(href='/about')(class="font-effect-fire" style="color: rgb(4, 26, 168)") Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          
+          span Andrew Stevens
+
+      block content
+
+  script(src='/static/js/script.js')
+
+
+
+
+
+
+
+
+

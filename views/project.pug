@@ -1,0 +1,32 @@
+extends layout.pug
+
+block content
+
+    .nav1
+      a(href='/')
+        span &larr;
+        |  Back
+        hr
+
+    .two-col1            
+      h1= project['project_name']         
+      p= project['description']
+
+    .two-col0        
+      h3 Technologies
+      ul            
+        each technology in project.technologies
+          li= technology
+       
+      a.btn-link(href=project['live_link'], target="_blank") Live Demo
+      a.btn-link(href=project['github_link'], target="_blank") GitHub Repo
+
+    
+    each image in project['image_urls']       
+      img.project-img(src=image, alt='Project Image')
+
+    hr
+    .nav2
+      a(href='/')
+        span &larr;
+        |  Back

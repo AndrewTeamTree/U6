@@ -1,0 +1,47 @@
+body {
+	background: url('tiles.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	border: 5px dotted rgb(212, 245, 122);
+}
+header {
+	background-color: #333;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+}
+header :hover {
+	transform: scale(1.1);
+}
+button {
+	transform: scale(1);
+	background: linear-gradient(silver, rgb(247, 212, 148));
+	background: -o-linear-gradient(silver, rgb(247, 212, 148));
+	background: -webkit-linear-gradient(silver, rgb(247, 212, 148));
+	background: -moz-linear-gradient(silver, rgb(247, 212, 148));
+}
+main {
+	padding: 20px;
+}
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+.content-container {
+	background: linear-gradient(silver, rgb(218, 218, 207));
+	background: -moz-linear-gradient(silver, rgb(218, 218, 207));
+	background: -webkit-linear-gradient(silver, rgb(218, 218, 207));
+	background: -o-linear-gradient(silver, rgb(218, 218, 207));
+	padding: 20px;
+	margin: 50px;
+	border-radius: 10px;
+	border: 3px solid rgb(212, 245, 122);
+	box-shadow: 8px 8px 80px rgba(0, 0, 0, 2);
+}
