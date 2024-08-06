@@ -2,7 +2,7 @@
 TeamTreehouse Unit 6 Project.
 
 # Static Node.js and Express Site
-Node.js and Express make a powerful pair when used together on the server side, and are used everyday to make fast, modular and dynamic web applications. In this project, I use Node.js, Express and Pug templates to create a portfolio site to show off the projects I've built. 
+Node.js and Express make a powerful pair when used together on the server side, and are used everyday to make fast, modular and dynamic web applications. In this project, I use Node.js, Express and Pug templates to create a portfolio site to show off the projects I've built. No link is provided to view, because it is built using the Back-End it cannot be displayed on github.
 
 
 ## Setup
@@ -23,4 +23,4 @@ Node.js and Express make a powerful pair when used together on the server side, 
 
 - Added CSS changes
 - Added fire to my name
-- Added my own website links and desription.
+- Added my own website links and description.
