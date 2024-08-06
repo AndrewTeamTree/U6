@@ -1,5 +1,5 @@
 --Click here-->https://andrewteamtree.github.io/U6-IN-HTML/
-for this project 6 in a front code very to this project.
+for this project 6 in a front-end code very similar, minus a detailed project description page.
 
 TeamTreehouse Unit 6 Project.
 
